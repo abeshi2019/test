@@ -1,4 +1,4 @@
-var ORIGIN = 'test';
+var ORIGIN = location.protocol + '//' + location.hostname + '/test';
 var STATIC_CACHE_NAME = 'static_v2';
 console.log('ORIGIN : ' + ORIGIN);
 var STATIC_FILES = [
